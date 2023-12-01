@@ -1,0 +1,472 @@
+$date
+	Fri Sep 16 11:10:00 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module PE_layer_test $end
+$var wire 32 ! A0_out [31:0] $end
+$var wire 32 " B0_out [31:0] $end
+$var wire 32 # B1_out [31:0] $end
+$var wire 32 $ B2_out [31:0] $end
+$var wire 32 % B3_out [31:0] $end
+$var wire 32 & B4_out [31:0] $end
+$var reg 32 ' A0 [31:0] $end
+$var reg 32 ( B0 [31:0] $end
+$var reg 32 ) B1 [31:0] $end
+$var reg 32 * B2 [31:0] $end
+$var reg 32 + B3 [31:0] $end
+$var reg 32 , B4 [31:0] $end
+$var reg 1 - clk $end
+$var reg 5 . clr [4:0] $end
+$var reg 5 / read [4:0] $end
+$var reg 5 0 write [4:0] $end
+$scope module DUT $end
+$var wire 32 1 A0 [31:0] $end
+$var wire 32 2 A0_out [31:0] $end
+$var wire 32 3 A0_temp0 [31:0] $end
+$var wire 32 4 A0_temp1 [31:0] $end
+$var wire 32 5 A0_temp2 [31:0] $end
+$var wire 32 6 A0_temp3 [31:0] $end
+$var wire 32 7 B0 [31:0] $end
+$var wire 32 8 B0_out [31:0] $end
+$var wire 32 9 B1 [31:0] $end
+$var wire 32 : B1_out [31:0] $end
+$var wire 32 ; B2 [31:0] $end
+$var wire 32 < B2_out [31:0] $end
+$var wire 32 = B3 [31:0] $end
+$var wire 32 > B3_out [31:0] $end
+$var wire 32 ? B4 [31:0] $end
+$var wire 32 @ B4_out [31:0] $end
+$var wire 1 A clk $end
+$var wire 5 B clr [4:0] $end
+$var wire 5 C read [4:0] $end
+$var wire 5 D write [4:0] $end
+$scope module PE0 $end
+$var wire 32 E A [31:0] $end
+$var wire 32 F B [31:0] $end
+$var wire 1 A clk $end
+$var wire 1 G clr $end
+$var wire 1 H read $end
+$var wire 1 I write $end
+$var reg 32 J Acc [31:0] $end
+$var reg 32 K Aout [31:0] $end
+$var reg 32 L Bout [31:0] $end
+$upscope $end
+$scope module PE1 $end
+$var wire 32 M A [31:0] $end
+$var wire 32 N B [31:0] $end
+$var wire 1 A clk $end
+$var wire 1 O clr $end
+$var wire 1 P read $end
+$var wire 1 Q write $end
+$var reg 32 R Acc [31:0] $end
+$var reg 32 S Aout [31:0] $end
+$var reg 32 T Bout [31:0] $end
+$upscope $end
+$scope module PE2 $end
+$var wire 32 U A [31:0] $end
+$var wire 32 V B [31:0] $end
+$var wire 1 A clk $end
+$var wire 1 W clr $end
+$var wire 1 X read $end
+$var wire 1 Y write $end
+$var reg 32 Z Acc [31:0] $end
+$var reg 32 [ Aout [31:0] $end
+$var reg 32 \ Bout [31:0] $end
+$upscope $end
+$scope module PE3 $end
+$var wire 32 ] A [31:0] $end
+$var wire 32 ^ B [31:0] $end
+$var wire 1 A clk $end
+$var wire 1 _ clr $end
+$var wire 1 ` read $end
+$var wire 1 a write $end
+$var reg 32 b Acc [31:0] $end
+$var reg 32 c Aout [31:0] $end
+$var reg 32 d Bout [31:0] $end
+$upscope $end
+$scope module PE4 $end
+$var wire 32 e A [31:0] $end
+$var wire 32 f B [31:0] $end
+$var wire 1 A clk $end
+$var wire 1 g clr $end
+$var wire 1 h read $end
+$var wire 1 i write $end
+$var reg 32 j Acc [31:0] $end
+$var reg 32 k Aout [31:0] $end
+$var reg 32 l Bout [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx l
+bx k
+bx j
+0i
+0h
+1g
+b101 f
+bx e
+bx d
+bx c
+bx b
+0a
+0`
+1_
+b100 ^
+bx ]
+bx \
+bx [
+bx Z
+0Y
+0X
+1W
+b11 V
+bx U
+bx T
+bx S
+bx R
+0Q
+0P
+1O
+b10 N
+bx M
+bx L
+bx K
+bx J
+0I
+0H
+1G
+b1 F
+b11 E
+b0 D
+b0 C
+b11111 B
+0A
+bx @
+b101 ?
+bx >
+b100 =
+bx <
+b11 ;
+bx :
+b10 9
+bx 8
+b1 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+b11 1
+b0 0
+b0 /
+b11111 .
+0-
+b101 ,
+b100 +
+b11 *
+b10 )
+b1 (
+b11 '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b0 L
+b0 "
+b0 8
+b0 K
+b0 3
+b0 M
+b0 J
+b0 T
+b0 #
+b0 :
+b0 S
+b0 4
+b0 U
+b0 R
+b0 \
+b0 $
+b0 <
+b0 [
+b0 5
+b0 ]
+b0 Z
+b0 d
+b0 %
+b0 >
+b0 c
+b0 6
+b0 e
+b0 b
+b0 l
+b0 &
+b0 @
+b0 k
+b0 !
+b0 2
+b0 j
+1-
+1A
+#10
+0G
+0O
+0W
+0_
+0g
+0-
+0A
+b0 .
+b0 B
+#15
+b101 l
+b101 &
+b101 @
+b100 d
+b100 %
+b100 >
+b11 \
+b11 $
+b11 <
+b10 T
+b10 #
+b10 :
+b1 L
+b1 "
+b1 8
+b11 K
+b11 3
+b11 M
+b11 J
+1-
+1A
+#20
+0-
+0A
+#25
+b110 J
+b11 S
+b11 4
+b11 U
+b110 R
+1-
+1A
+#30
+0-
+0A
+#35
+b11 [
+b11 5
+b11 ]
+b1001 Z
+b1100 R
+b1001 J
+1-
+1A
+#40
+0-
+0A
+#45
+b1100 J
+b10010 R
+b10010 Z
+b11 c
+b11 6
+b11 e
+b1100 b
+1-
+1A
+#50
+0-
+0A
+#55
+b11 k
+b11 !
+b11 2
+b1111 j
+b11000 b
+b11011 Z
+b11000 R
+b1111 J
+1-
+1A
+#60
+0-
+0A
+#65
+b10010 J
+b11110 R
+b100100 Z
+b100100 b
+b11110 j
+1-
+1A
+#70
+0-
+0A
+#75
+b101101 j
+b110000 b
+b101101 Z
+b100100 R
+b10101 J
+1-
+1A
+#80
+0-
+0A
+#85
+b11000 J
+b101010 R
+b110110 Z
+b111100 b
+b111100 j
+1-
+1A
+#90
+0-
+0A
+#95
+b1001011 j
+b1001000 b
+b111111 Z
+b110000 R
+b11011 J
+1-
+1A
+#100
+0-
+0A
+#105
+b11110 J
+b110110 R
+b1001000 Z
+b1010100 b
+b1011010 j
+1-
+1A
+#110
+0-
+0A
+#115
+b1101001 j
+b1100000 b
+b1010001 Z
+b111100 R
+b100001 J
+1-
+1A
+#120
+0-
+0A
+#125
+b100100 J
+b1000010 R
+b1011010 Z
+b1101100 b
+b1111000 j
+1-
+1A
+#130
+0-
+0A
+#135
+b10000111 j
+b1111000 b
+b1100011 Z
+b1001000 R
+b100111 J
+1-
+1A
+#140
+0-
+0A
+#145
+b101010 J
+b1001110 R
+b1101100 Z
+b10000100 b
+b10010110 j
+1-
+1A
+#150
+0-
+0A
+#155
+b10100101 j
+b10010000 b
+b1110101 Z
+b1010100 R
+b101101 J
+1-
+1A
+#160
+0-
+0A
+#165
+b110000 J
+b1011010 R
+b1111110 Z
+b10011100 b
+b10110100 j
+1-
+1A
+#170
+0-
+0A
+#175
+b11000011 j
+b10101000 b
+b10000111 Z
+b1100000 R
+b110011 J
+1-
+1A
+#180
+0-
+0A
+#185
+b110110 J
+b1100110 R
+b10010000 Z
+b10110100 b
+b11010010 j
+1-
+1A
+#190
+0-
+0A
+#195
+b11100001 j
+b11000000 b
+b10011001 Z
+b1101100 R
+b111001 J
+1-
+1A
+#200
+0-
+0A
+#205
+b111100 J
+b1110010 R
+b10100010 Z
+b11001100 b
+b11110000 j
+1-
+1A
+#210
+0-
+0A
